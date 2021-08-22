@@ -36,15 +36,8 @@ def drop2():
 
 def filtracion_especies(x):
     """
-    
+
     """
     m = re.findall('\w+. shark', x)
     if m:
-        return m[0]
-
-def letalidad(x):
-    """
-    
-    """
-    if x == 'Y':
-        return x
+        return (m[0].lower())
