@@ -29,7 +29,8 @@ def filtracion(x):
 
 def filtracion_especies(x):
     """
-
+    Por cada valor de X, detecta con el re.findall de Regex los string que poseen la palabra shark. Genera una lista de 
+    un elemento, y devuelve el valor correspondiente convertido a minúsculas.
     """
     m = re.findall('\w+. shark', x)
     if m:
