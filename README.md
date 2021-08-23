@@ -1,28 +1,18 @@
 ![image](https://user-images.githubusercontent.com/86317461/130485714-e6ea3403-bfd8-4389-be64-32c8a8708bef.png)
 
-# Sharks 
+# SHARKS: Proyecto de data cleaning & wrangling con Pandas
 
-## Primer proyecto de data cleaning & wrangling con Pandas
 
-- OBJETIVO:
+## OBJETIVO:
 
-El objetivo de este proyecto es aplicar todo lo que aprendimos sobre limpieza y manipulación de datos utilizando la librería de Pandas. Para ello, utilizaremos "Shark Attack", un conjunto de datos sobre ataques de tiburones de 25723 filas por 24 columnas.
+El objetivo de este proyecto es aplicar todo lo que aprendimos sobre limpieza y manipulación de datos utilizando Pandas. En particular, tratamos de comprobar tres HIPÓTESIS:
 
-- HIPÓTESIS:
+1. Si existe una estacionalidad en los ataques de tiburón.
+2. Si hay especies que son más letales que otras.
+3. Si hay actividades acuáticas que tengan más propensión a sufrir ataques que otras.
 
-Para este trabajo, planteamos tres hipótesis:
-
-1. Existe una estacionalidad en los ataques de tiburón?.
-2. Hay especies que son más letales que otras?.
-3. Existen actividades acuáticas que tengan más propensión a sufrir ataques que otras?.
-
-- FUENTES:
-
-[Kaggle](https://www.kaggle.com/felipeesc/shark-attack-dataset)
-
--METODOLOGÍA:
-
--lIBRERÍAS: 
+Para ello, utilizaremos "Shark Attack Dataset", un conjunto de datos sobre ataques de tiburones de 25723 filas por 24 columnas con mucho por limpiar y organizar.
+[Kaggle](https://www.kaggle.com/felipeesc/shark-attack-dataset). Y las LIBRERÍAS:
 
 [Numpy](https://numpy.org/doc/) 
 
